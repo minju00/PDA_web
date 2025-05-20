@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #666666;
+    cursor: pointer;
+    text-align : center;
+}
+
+.nav-item:hover {
+    color: #000000;
+}
+.main-1{
+    padding : 100px;
+    margin-left: 300px;
+    gap : 289px;
+    width : 1228px;
+    height : 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-text{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #42446E;
+    text-align : center;
+}
+
+.main-highlight{
+    color: var(--Solid-Heading, #42446E);
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 120.69% */
+    letter-spacing: -1px;
+}
+.main-highlight2{
+    color: var(--Solid-Heading, #42446E);
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 120.69% */
+    letter-spacing: -1px;
+    text-align : center;
+}
+.main-2{
+    padding : 100px;
+    margin-left: 300px;
+    width : 1228px;
+    height : 543px;
+    text-align : center;
+    justify-content: space-between;
+
+}
+
+.middle-font{
+    color: var(--Solid-Heading, #666666);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.main-3{
+    padding : 100px;
+    margin-left: 300px;
+    width : 1377px;
+    height : 543px;
+    text-align : center;
+    justify-content: space-between;
+
+}
+
+
+.compo-big {
+    width: 373px;
+    height: 567px;
+    top: 3px;
+    left: 2px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+}
+
+.compo-title{
+    width : 300px;
+    height : 26px;
+    font-weight: 500px;
+    font-size : 28px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.compo-font{
+    margin-top : 20px;
+    width : 300px;
+    size : 18px;
+    line-height: 26px;
+    color : #666666;
+}
+.compo-full{
+    margin-top : 20px;
+    padding-left: 20px;
+    width : 314px;
+    height : 254px;
+    top : 286px;
+    left : 31px;
+    gap : 24px;
+}
