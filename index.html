@@ -1,74 +1,157 @@
 <!DOCTYPE html>
+<html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PDA_HTML&CSS Figma </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDA_HTML&CSS Figma</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <img src="./images/logo1.png" width="97" height="59" alt="logo" />
-        <div class="header-nav">
-            <div class="nav-item">Home</div>
-            <div class="nav-item">About</div>
-            <div class="nav-item">Tech Stack</div>
-            <div class="nav-item">Projects</div>
-            <div class="nav-item">Contact</div>
+    <!-- Navigation Bar -->
+    <nav class="top-nav">
+        <img class="top-logo" src="./images/logo1.png" alt="logo" width="97" height="59" />
+        
+        <div class="top-sns">
+            <a href="#"><img src="images/github.svg" alt="github" width="30" /></a>
+            <a href="#"><img src="images/twiter.svg" alt="twitter" width="30" /></a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin" width="30" /></a>
         </div>
+    </nav>
+    <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Tech Stack</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
 
-        <div class="header-nav">
-            <img src="images/github.svg" width="30">
-            <img src="images/twiter.svg" width="30">
-            <img src="images/linkedin.svg" width="30">
-        </div>
-    </header>
-    <div class="main-1">
+    <!-- Hero Section -->
+    <header class="main-1">
         <div class="main-highlight">
             Hi 👋,<br>
-            제 이름은 토리에요!<br>
-            저는 웹 개발을 잘 해요!
+            나는야 <span>이민주</span>에요!<br>
+            저는 웹 개발을 잘해요!
         </div>
-        <img src="images/profile1.png" width="300">
+        <img src="images/profile1.png" alt="profile" width="300" />
+    </header>
 
-    </div>
-    <div class="main-2">
-        <div class="main-highlight2">
-            My Tech Stack
-        </div>
-        <div class="middle-font">
-            제가 주로 사용하는 기술 스택들이에요
-        </div>
-        <img src="images/Frame-10.png" width=1228px>
-    </div>
 
-    <div class="main-3">
-        <div class="main-highlight2">
-            Project
-        </div>
-        <div class="middle-font">
-            제가 진행한 프로젝트 들이에요
-        </div>
+    <!-- Tech Stack Section -->
+    <section class="main-2">
+        <h2 class="main-highlight2">My Tech Stack</h2>
+        <p class="middle-font">Technologies I’ve been working with recently</p>
 
-        <div class="compo-big">
-            <img src="images/image3.jpg" width=375px height=256px>
-            <div class="compo-full">
-                <div class="compo-title">
-                    Project Tile goes here
+        <div class="tech-icons">
+            <img src="./images/vscode-icons_file-type-html.svg" alt="HTML" />
+            <img src="./images/vscode-icons_file-type-css.svg" alt="CSS" />
+            <img src="./images/vscode-icons_file-type-js-official.svg" alt="JavaScript" />
+            <img src="./images/logos_react.svg" alt="React" />
+            <img src="./images/logos_bootstrap.svg" alt="Bootstrap" />
+            <img src="./images/vscode-icons_file-type-tailwind.svg" alt="Tailwind CSS" />
+            <img src="./images/logos_sass.svg" alt="SASS" />
+            <img src="./images/logos_git-icon.svg" alt="Git" />
+            <img src="./images/github.svg" alt="GitHub" />
+            <img src="./images/vscode-icons_file-type-vscode.svg" alt="VS Code" />
+            <img src="./images/cib_greensock.svg" alt="GreenSock" />
+            <img src="./images/tech-stack-5.svg" />
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section class="main-3" id="projects">
+        <h2 class="main-highlight2">Projects</h2>
+        <p class="middle-font">제가 진행한 프로젝트들이에요</p>
+
+        <div class="project-list">
+            <!-- 1 Project -->
+            <article class="project-item">
+                <img src="images/image3.jpg" alt="프로젝트 썸네일" width="375" height="256" />
+                <div class="project-content">
+                    <h3 class="compo-title">Project Title goes here</h3>
+                    <p class="compo-font">
+                        This is a sample project description. Random details and lorem ipsum content for placeholder.
+                    </p>
+                    <div class="card-footer">
+                        <a class="live-preview" href="#" target="_blank">
+                            <img src="images/akar-icons_link-chain.svg" alt="Link Icon" class="link-icon" />
+                            Live Preview
+                        </a>
+                        <a class="live-preview" href="#" target="_blank">
+                            <img src="images/akar-icons_github-fill.svg" alt="Github Icon" class="link-icon" />
+                            View Code
+                        </a>
+                    </div>
+
                 </div>
-                <div class="compo-font">
-                    This is sample project description random things are here in description This is sample project
-                    lorem
-                    ipsum generator for dummy content
-                </div>
-            </div>
-        </div>
+            </article>
 
-    </div>
+            <!-- 2 Project -->
+            <article class="project-item">
+                <img src="images/image3.jpg" alt="프로젝트 썸네일" width="375" height="256" />
+                <div class="project-content">
+                    <h3 class="compo-title">Project Title goes here</h3>
+                    <p class="compo-font">
+                        This is a sample project description. Random details and lorem ipsum content for placeholder.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 3 Project -->
+            <article class="project-item">
+                <img src="images/image3.jpg" alt="프로젝트 썸네일" width="375" height="256" />
+                <div class="project-content">
+                    <h3 class="compo-title">Project Title goes here</h3>
+                    <p class="compo-font">
+                        This is a sample project description. Random details and lorem ipsum content for placeholder.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 4 Project -->
+            <article class="project-item">
+                <img src="images/image3.jpg" alt="프로젝트 썸네일" width="375" height="256" />
+                <div class="project-content">
+                    <h3 class="compo-title">Project Title goes here</h3>
+                    <p class="compo-font">
+                        This is a sample project description. Random details and lorem ipsum content for placeholder.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 5 Project -->
+            <article class="project-item">
+                <img src="images/image3.jpg" alt="프로젝트 썸네일" width="375" height="256" />
+                <div class="project-content">
+                    <h3 class="compo-title">Project Title goes here</h3>
+                    <p class="compo-font">
+                        This is a sample project description. Random details and lorem ipsum content for placeholder.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 6 Project -->
+            <article class="project-item">
+                <img src="images/image3.jpg" alt="프로젝트 썸네일" width="375" height="256" />
+                <div class="project-content">
+                    <h3 class="compo-title">Project Title goes here</h3>
+                    <p class="compo-font">
+                        This is a sample project description. Random details and lorem ipsum content for placeholder.
+                    </p>
+                </div>
+            </article>
+
+
+            <!-- 더 추가 가능 -->
+        </div>
+    </section>
+
     <footer>
-
+        <!-- 추가 가능 -->
     </footer>
 </body>
 
